@@ -4,7 +4,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/YOUR_USERNAME/Gradle-Jenkins-App.git'
+                    url: 'https://github.com/Aryan-jaiswa/gradle-App.git'
             }
         }
         stage('Check Gradle Version') {
